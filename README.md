@@ -94,6 +94,9 @@ This process executes the registration of each component in serial
 ## Inventory
 
 Prior to running pas-orchestrator hosts file should be "updated" [https://github.com/cyberark/pas-orchestrator/blob/master/inventories/production/hosts] with relevant hosts data.
+```
+This fork commented credssp under inventories\production\group_vars\windows.yml
+```
 
     # file: production
     # TODO: Add description how to add hosts
